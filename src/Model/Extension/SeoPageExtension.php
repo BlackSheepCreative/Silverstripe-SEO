@@ -97,6 +97,10 @@ class SeoPageExtension extends DataExtension
         'SocialImage' => Image::class
     ];
 
+    private static $owns = [
+        'SocialImage'
+    ];
+
     /**
      * Has many extra Meta tags
      *
