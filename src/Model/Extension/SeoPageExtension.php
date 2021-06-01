@@ -77,7 +77,6 @@ class SeoPageExtension extends DataExtension
         'MetaTitle'       => 'Varchar(512)',
         'Canonical'       => 'Varchar(512)',
         'Robots'          => 'Varchar(100)',
-        'Priority'        => 'Decimal(3,2)',
         'ChangeFrequency' => 'Varchar(20)',
         'SitemapHide'     => 'Boolean',
         'HideSocial'      => 'Boolean',
